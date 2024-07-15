@@ -22,7 +22,7 @@ public class Notepad extends JFrame implements ActionListener {
         JMenu file = new JMenu("File"); //file menu
         
         JMenuItem newdoc = new JMenuItem("New");
-        newdoc.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_N, ActionEvent.CTRL_MASK));
+        newdoc.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_N, ActionEvent.CTRL_MASK));//nemonics ex:ctr+s...
         newdoc.addActionListener(this);
         
         JMenuItem open = new JMenuItem("Open");

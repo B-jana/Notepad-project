@@ -30,7 +30,7 @@ public class About extends JFrame implements ActionListener{
         add(l2);
         
         
-        JLabel l3 = new JLabel("<html>Code for Interview<br>Youtube Channel Version 2021<br>2021 Code for Interview. All rights reserved<br><br>Notepad is a word processing program, <br>which allows changing of text in a computer file.<br>Notepad is a simple text editor for basic text-editing program<br> which enables computer users to create documents. </html>");
+        JLabel l3 = new JLabel("<html>This is Creted by the BONTHU JANARDANRAO<br><br><br><br>Welcome to Notepad! This simple yet powerful text editor is designed to help you create and edit text files with ease.  <br>Notepad offers essential features like creating new files, opening existing ones, saving your work, and printing documents.<br>Additionally, you can copy, paste, cut, and select all text effortlessly.<br> Whether you're jotting down quick notes or working on longer documents, Notepad is here to assist you. </html>");
         l3.setFont(new Font("SAN_SERIF", Font.PLAIN, 18));
         l3.setBounds(150, 130, 500, 300);
         add(l3);
